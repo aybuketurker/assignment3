@@ -1,0 +1,150 @@
+2014-08-29 10:19:03,208 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-08-29 10:19:03,232 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-08-29 10:19:04,307 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-08-29 10:19:04,438 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-08-29 10:19:04,442 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-08-29 10:19:04,461 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-08-29 10:19:04,460 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-08-29 10:19:04,557 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 10:19:07,404 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2014-08-29 10:19:07,404 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2014-08-29 10:19:07,411 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-08-29 10:19:13,535 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-08-29 10:19:13,538 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-08-29 10:19:13,561 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-08-29 10:23:24,683 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: '/usr/share/app-install/desktop/ipython:ipython.desktop'
+2014-08-29 10:24:51,922 - softwarecenter.backend - ERROR - error in _on_trans_finished 'Error: Failed to download package files
+Check your Internet connection.
+
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/m/mathjax/fonts-mathjax_2.3-1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/g/gcc-4.8/libgfortran3_4.8.2-19ubuntu1_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/libg/libglade2/libglade2-0_2.6.4-2_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/m/mysql-5.5/mysql-common_5.5.38-0ubuntu0.14.04.1_all.deb Could not resolve 'security.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/m/mysql-5.5/libmysqlclient18_5.5.38-0ubuntu0.14.04.1_amd64.deb Could not resolve 'security.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/libp/libpgm/libpgm-5.1-0_5.1.118-1~dfsg-0.1ubuntu3_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/z/zeromq3/libzmq3_4.0.4+dfsg-2_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/m/mathjax/libjs-mathjax_2.3-1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/f/fonts-font-awesome/fonts-font-awesome_4.0.0~dfsg-1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/l/lyx/fonts-lyx_2.0.6-1build1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/p/python-decorator/python-decorator_3.4.0-2build1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/s/simplegeneric/python-simplegeneric_0.8.1-1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/i/ipython/ipython_1.2.1-2_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/j/jquery/libjs-jquery_1.7.2+dfsg-2ubuntu1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/u/underscore/libjs-underscore_1.4.4-2ubuntu1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/s/sphinx/libjs-sphinxdoc_1.2.2+dfsg-1ubuntu1.1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/i/ipython/ipython-doc_1.2.1-2_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/h/highlight.js/libjs-highlight_7.4+ds-1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/j/jqueryui/libjs-jquery-ui_1.10.1+dfsg-1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/n/node-marked/libjs-marked_0.3.1+dfsg-1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/i/ipython/ipython-notebook-common_1.2.1-2_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/m/markupsafe/python-markupsafe_0.18-1build2_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/j/jinja2/python-jinja2_2.7.2-2_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/p/python-tornado/python-tornado_3.1.1-1ubuntu2_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/p/pyzmq/python-zmq_14.0.1-1build2_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/i/ipython/ipython-notebook_1.2.1-2_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/p/pygments/python-pygments_1.6+dfsg-1ubuntu1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/i/ipython/ipython-qtconsole_1.2.1-2_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/j/javascript-common/javascript-common_11_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/b/blas/libblas3_1.2.20110419-7_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/l/lapack/liblapack3_3.5.0-2ubuntu1_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/p/python-dateutil/python-dateutil_1.5+dfsg-1ubuntu1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/p/pygtk/python-glade2_2.24.0-3ubuntu3_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/m/matplotlib/python-matplotlib-data_1.3.1-1ubuntu5_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/p/pyparsing/python-pyparsing_2.0.1+dfsg1-1build1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/p/python-tz/python-tz_2012c-1build1_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/p/python-numpy/python-numpy_1.8.1-1ubuntu1_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/p/python-support/python-support_1.0.15_all.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/m/matplotlib/python-matplotlib_1.3.1-1ubuntu5_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/p/python-mysqldb/python-mysqldb_1.2.3-2ubuntu1_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/p/python-stdlib-extensions/python-tk_2.7.5-1ubuntu1_amd64.deb Could not resolve 'us.archive.ubuntu.com'
+'
+2014-08-29 10:24:57,427 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 10:29:37,370 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 10:29:48,502 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:11:11,651 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-08-29 11:11:12,756 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-08-29 11:11:13,150 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-08-29 11:11:13,155 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-08-29 11:11:13,163 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-08-29 11:11:13,163 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-08-29 11:11:13,266 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:11:14,380 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2014-08-29 11:11:14,381 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2014-08-29 11:11:16,155 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-08-29 11:11:22,801 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-08-29 11:12:48,462 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:12:49,007 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: ''
+2014-08-29 11:12:49,007 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2014-08-29 11:12:59,312 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:14:56,203 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:14:56,751 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: ''
+2014-08-29 11:14:56,751 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2014-08-29 11:15:07,311 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:15:27,074 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:15:38,311 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:41:37,647 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:41:47,312 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:47:05,197 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-08-29 11:47:05,920 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-08-29 11:47:05,921 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-08-29 11:47:05,935 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-08-29 11:47:05,935 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-08-29 11:47:06,021 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 11:47:07,102 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2014-08-29 11:47:07,103 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2014-08-29 11:47:08,813 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-08-29 11:47:14,258 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-08-29 14:01:51,919 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 14:02:02,205 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 14:50:15,249 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-08-29 14:50:16,347 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-08-29 14:50:16,351 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-08-29 14:50:16,363 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-08-29 14:50:16,363 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-08-29 14:50:16,456 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-08-29 14:50:17,500 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2014-08-29 14:50:17,501 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2014-08-29 14:50:19,037 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-08-29 14:50:24,116 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0

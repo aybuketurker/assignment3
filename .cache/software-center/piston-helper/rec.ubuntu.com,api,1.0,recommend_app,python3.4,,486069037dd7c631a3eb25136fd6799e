@@ -1,0 +1,149 @@
+status: 200
+content-length: 3474
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/python3.4/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Fri, 29 Aug 2014 15:22:21 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Fri, 29 Aug 2014 15:17:21 GMT
+etag: "b86347f16311ee758edb6f0c09aa3e38"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Fri, 29 Aug 2014 15:17:21 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "3549217c1305e965bc75126e7deda51e", 
+    "data": [
+        {
+            "lift": 11.9044036054621, 
+            "package_name": "unity-webapps-qml"
+        }, 
+        {
+            "lift": 11.9039857786882, 
+            "package_name": "checkbox-gui"
+        }, 
+        {
+            "lift": 11.9035643363122, 
+            "package_name": "unity-control-center"
+        }, 
+        {
+            "lift": 11.8783894562243, 
+            "package_name": "ibus-pinyin"
+        }, 
+        {
+            "lift": 11.2335287819524, 
+            "package_name": "webbrowser-app"
+        }, 
+        {
+            "lift": 4.50211148936534, 
+            "package_name": "cheese"
+        }, 
+        {
+            "lift": 3.18043858619794, 
+            "package_name": "signon-ui"
+        }, 
+        {
+            "lift": 3.17372449756144, 
+            "package_name": "shotwell-common"
+        }, 
+        {
+            "lift": 3.13735661027465, 
+            "package_name": "activity-log-manager"
+        }, 
+        {
+            "lift": 2.40476862212122, 
+            "package_name": "unity-webapps-common"
+        }, 
+        {
+            "lift": 2.08990381643218, 
+            "package_name": "unity-scope-gdrive"
+        }, 
+        {
+            "lift": 2.07313077263415, 
+            "package_name": "remmina"
+        }, 
+        {
+            "lift": 2.06193308020549, 
+            "package_name": "gnome-mahjongg"
+        }, 
+        {
+            "lift": 2.03489948971098, 
+            "package_name": "gnome-mines"
+        }, 
+        {
+            "lift": 2.03431023705945, 
+            "package_name": "gnome-calculator"
+        }, 
+        {
+            "lift": 2.02180102665289, 
+            "package_name": "im-config"
+        }, 
+        {
+            "lift": 1.9656608373432, 
+            "package_name": "gkbd-capplet"
+        }, 
+        {
+            "lift": 1.56411826553057, 
+            "package_name": "unity-lens-photos"
+        }, 
+        {
+            "lift": 1.53100349750116, 
+            "package_name": "gnome-system-monitor"
+        }, 
+        {
+            "lift": 1.50302757576508, 
+            "package_name": "gcr"
+        }, 
+        {
+            "lift": 1.39029826271432, 
+            "package_name": "gnome-contacts"
+        }, 
+        {
+            "lift": 1.16430814836917, 
+            "package_name": "vlc"
+        }, 
+        {
+            "lift": 1.09760919177012, 
+            "package_name": "gstreamer0.10-plugins-bad"
+        }, 
+        {
+            "lift": 1.08433061526467, 
+            "package_name": "gstreamer0.10-plugins-ugly"
+        }, 
+        {
+            "lift": 1.07509538395793, 
+            "package_name": "flashplugin-installer"
+        }, 
+        {
+            "lift": 1.04592766004332, 
+            "package_name": "landscape-client-ui-install"
+        }, 
+        {
+            "lift": 1.02528213891602, 
+            "package_name": "empathy"
+        }, 
+        {
+            "lift": 1.02377253741676, 
+            "package_name": "gnome-orca"
+        }, 
+        {
+            "lift": 1.01984590755893, 
+            "package_name": "rhythmbox"
+        }, 
+        {
+            "lift": 1.01894028652487, 
+            "package_name": "aisleriot"
+        }, 
+        {
+            "lift": 1.0171714924615, 
+            "package_name": "totem"
+        }, 
+        {
+            "lift": 1.00814589050379, 
+            "package_name": "thunderbird"
+        }
+    ], 
+    "app": "python3.4"
+}

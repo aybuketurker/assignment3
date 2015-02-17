@@ -1,0 +1,26 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: eWhYLDkaa3TQ/MT6rsrDDoVvfjEMA
+ 0AIxsol/aQbSyQ=
+SHA-256-Digest-Manifest: 1yL98Vf0kkXcjZpGILoaLnI4jWx5VIusBmDK+FL+xcM=
+Created-By: 1.7.0_55 (Oracle Corporation)
+
+Name: refactoring.jar
+SHA-256-Digest: poAVoTlh4lbF19cL1Q5s5CISyNbUWsS3DLBU7fSAjHE=
+
+Name: LICENSE.TXT
+SHA-256-Digest: mtk2pu43aWF40oMq/sr3cRMcILygEgrX4KgNzXYsnaA=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.refactoring/pom
+ .properties
+SHA-256-Digest: tpgv9N3vYbvQRA979xF9oqXQvqy5qw8SeRXI1J7g/gc=
+
+Name: plugin.xml
+SHA-256-Digest: ruiEyykcVNK3ZOpmJUH3DcJDQJCLQU3WR6s1r3L5g1I=
+
+Name: plugin.properties
+SHA-256-Digest: CZtGArx9vvylva6sv96XsEua/NkI5XitagSDGf8uY2Q=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.refactoring/pom
+ .xml
+SHA-256-Digest: hI8iiiAtywZIUqETYbWmzncmQNMGR8AmuZ/B/KGH+j4=
+

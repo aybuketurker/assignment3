@@ -1,0 +1,4 @@
+Error loading .desktop file /usr/share/applications/gnome-activity-log-manager-panel.desktop: constructor returned NULL
+Error loading .desktop file /usr/share/app-install/desktop/activity-log-manager:gnome-activity-log-manager-panel.desktop: constructor returned NULL
+
+(gnome-terminal:2093): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.

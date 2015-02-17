@@ -1,0 +1,112 @@
+status: 200
+content-length: 3880
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/en/any/any/any/ipython/page/1/helpful/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Fri, 29 Aug 2014 14:27:59 GMT
+vary: Accept
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Fri, 29 Aug 2014 14:22:59 GMT
+connection: close
+cache-control: max-age=300
+date: Fri, 29 Aug 2014 14:22:59 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "ipython", 
+        "language": "en", 
+        "reviewer_username": "davmor2", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "This is a great python shell with some very nice features you may also consider bpython too.\n\nThis is a step up from the basic python shell but it isn't too far gone that it is over the top", 
+        "date_deleted": null, 
+        "summary": "Just the right amount of feaures to be useful without being ott", 
+        "version": "0.13.2~rc2-1", 
+        "id": 69730, 
+        "date_created": "2013-04-04 09:28:11", 
+        "reviewer_displayname": "Dave Morley", 
+        "package_name": "ipython", 
+        "distroseries": "raring"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "ipython", 
+        "language": "en", 
+        "reviewer_username": "wnPANPL", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "非常好用，尤其是历史命令功能和用 %paste 从外部粘贴命令。很适合用matplotlib交互式画图。不过有时会挂掉，不知道是什么原因。", 
+        "date_deleted": null, 
+        "summary": "比原生python shell更友好", 
+        "version": "0.12.1+dfsg-0ubuntu1", 
+        "id": 68456, 
+        "date_created": "2013-03-13 04:23:42", 
+        "reviewer_displayname": "lizz", 
+        "package_name": "ipython", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "ipython", 
+        "language": "en", 
+        "reviewer_username": "xamox", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Highly recommend this over the standard python shell. Has tab completion, much better command history, etc.", 
+        "date_deleted": null, 
+        "summary": "Use over standard python shell", 
+        "version": "0.12.1+dfsg-0ubuntu1", 
+        "id": 62221, 
+        "date_created": "2012-12-05 00:46:45", 
+        "reviewer_displayname": "xamox", 
+        "package_name": "ipython", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "ipython", 
+        "language": "en", 
+        "reviewer_username": "gribuporsche", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Very good, light weighted, and simple IDE for quick Python prototyping", 
+        "date_deleted": null, 
+        "summary": "Right balnce between options and performance", 
+        "version": "0.12.1+dfsg-0ubuntu1", 
+        "id": 80442, 
+        "date_created": "2013-11-04 10:43:48", 
+        "reviewer_displayname": "olgis", 
+        "package_name": "ipython", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 4, 
+        "hide": false, 
+        "app_name": "", 
+        "language": "en", 
+        "reviewer_username": "njwilson23", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 0, 
+        "review_text": "Ipython has become an important part of my workflow, which involves probing data and prototyping functions.\n\nUnfortunately, this version is rather old, but good nonetheless. Newer versions introduce a console with inline plots (sort of like Mathematica), as well as a simple notebook (sort of like Sage).", 
+        "date_deleted": null, 
+        "summary": "Good, but version here missing some functionality", 
+        "version": "0.10.2-1", 
+        "id": 26847, 
+        "date_created": "2011-10-25 16:26:23", 
+        "reviewer_displayname": "Nat Wilson", 
+        "package_name": "ipython", 
+        "distroseries": "oneiric"
+    }
+]

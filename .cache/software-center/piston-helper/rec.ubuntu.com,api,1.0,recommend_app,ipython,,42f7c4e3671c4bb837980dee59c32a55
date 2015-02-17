@@ -1,0 +1,20 @@
+status: 200
+content-length: 89
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/ipython/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Fri, 29 Aug 2014 14:27:59 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Fri, 29 Aug 2014 14:22:59 GMT
+etag: "ef9372ca77d17ba20169ff0d3aa63a50"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Fri, 29 Aug 2014 14:22:59 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "32c9e8f824d7e4caeef5e02333e5e1f4", 
+    "data": [], 
+    "app": "ipython"
+}

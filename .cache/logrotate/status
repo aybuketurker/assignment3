@@ -1,0 +1,19 @@
+logrotate state -- version 2
+"/home/ds-ga-1007/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_nm-applet.1000.crash.log" 2015-2-10-15:7:18
+"/home/ds-ga-1007/.cache/upstart/at-spi2-registryd.log" 2015-2-10-18:44:12
+"/home/ds-ga-1007/.cache/upstart/hud.log" 2015-2-10-15:7:18
+"/home/ds-ga-1007/.cache/upstart/dbus.log" 2015-2-15-8:46:23
+"/home/ds-ga-1007/.cache/upstart/unity-settings-daemon.log" 2015-2-15-8:46:23
+"/home/ds-ga-1007/.cache/upstart/indicator-power.log" 2015-2-15-8:46:23
+"/home/ds-ga-1007/.cache/upstart/indicator-bluetooth.log" 2015-2-15-8:46:23
+"/home/ds-ga-1007/.cache/upstart/indicator-session.log" 2015-2-10-15:7:18
+"/home/ds-ga-1007/.cache/upstart/im-config.log" 2015-2-15-8:46:23
+"/home/ds-ga-1007/.cache/upstart/indicator-printers.log" 2015-2-10-15:7:18
+"/home/ds-ga-1007/.cache/upstart/indicator-sound.log" 2015-2-15-8:46:23
+"/home/ds-ga-1007/.cache/upstart/unity-panel-service.log" 2015-2-15-8:46:23
+"/home/ds-ga-1007/.cache/upstart/unity7.log" 2015-2-15-8:46:23
+"/home/ds-ga-1007/.cache/upstart/update-notifier-cds.log" 2014-8-29-15:13:46
+"/home/ds-ga-1007/.cache/upstart/upstart-event-bridge.log" 2014-9-3-17:0:57
+"/home/ds-ga-1007/.cache/upstart/gnome-session-Unity.log" 2015-2-15-8:46:23
+"/home/ds-ga-1007/.cache/upstart/window-stack-bridge.log" 2015-2-15-8:46:23
+"/home/ds-ga-1007/.cache/upstart/update-notifier-release.log" 2015-2-15-8:46:23

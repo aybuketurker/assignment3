@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=PyDev - test/src/root/foo/mod1.py - Eclipse Platform 
+Icon=eclipse.png
+Path=/home/ds-ga-1007/eclipse
+Exec=/usr/bin/java -Xms40m -Xmx512m -XX:MaxPermSize=256m -jar /home/ds-ga-1007/eclipse//plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar -os linux -ws gtk -arch x86_64 -showsplash /home/ds-ga-1007/eclipse//plugins/org.eclipse.platform_4.4.0.v20140606-1215/splash.bmp -launcher /home/ds-ga-1007/eclipse/eclipse -name Eclipse --launcher.library /home/ds-ga-1007/eclipse//plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.200.v20140603-1326/eclipse_1605.so -startup /home/ds-ga-1007/eclipse//plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar --launcher.appendVmargs -exitdata 118009 -vm /usr/bin/java -vmargs -Xms40m -Xmx512m -XX:MaxPermSize=256m -jar /home/ds-ga-1007/eclipse//plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar
+StartupNotify=false
+StartupWMClass=Eclipse
+OnlyShowIn=Unity;
+X-UnityGenerated=true

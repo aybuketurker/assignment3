@@ -1,0 +1,74 @@
+status: 200
+content-length: 2513
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/en/any/any/any/ipython-qtconsole/page/1/helpful/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Fri, 29 Aug 2014 15:20:01 GMT
+vary: Accept
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Fri, 29 Aug 2014 15:15:01 GMT
+connection: close
+cache-control: max-age=300
+date: Fri, 29 Aug 2014 15:15:01 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 3, 
+        "hide": false, 
+        "app_name": "IPython Qt console", 
+        "language": "en", 
+        "reviewer_username": "7PhW6Dt", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "IPython is great and really useful. But this console has a problem interacting with other command line applications. It opens the program, but doesn't accept any input. After opening, there's no way to interact with the external application, or return to IPython.  I'd like to be able to use it as a full terminal replacement.", 
+        "date_deleted": null, 
+        "summary": "Good, some problems", 
+        "version": "1.2.1-2", 
+        "id": 87649, 
+        "date_created": "2014-06-01 20:49:29", 
+        "reviewer_displayname": "Zachary Dunn", 
+        "package_name": "ipython-qtconsole", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "IPython Qt console", 
+        "language": "en", 
+        "reviewer_username": "dutra-carlos", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Very good console!", 
+        "date_deleted": null, 
+        "summary": "Easy to use", 
+        "version": "0.13.2-1", 
+        "id": 71131, 
+        "date_created": "2013-04-28 01:51:52", 
+        "reviewer_displayname": "Carlos Dutra", 
+        "package_name": "ipython-qtconsole", 
+        "distroseries": "raring"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 4, 
+        "hide": false, 
+        "app_name": "IPython Qt console", 
+        "language": "en", 
+        "reviewer_username": "k3D7kCX", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "I like the colour highlighting very much. Normally I use Spyder2 IDE for scientific Python but I find IPython Qt Console wonderful for code prototyping and taking a quick look at data.\nNearly all 'Magic' entries in the drop-down list are empty and I don't know why. More help documentation would be useful too. That's why it gets 4 stars.", 
+        "date_deleted": null, 
+        "summary": "Very nice implementation of the IPython console", 
+        "version": "0.13.1~rc3-0ubuntu1", 
+        "id": 69644, 
+        "date_created": "2013-04-02 15:55:50", 
+        "reviewer_displayname": "Piotr", 
+        "package_name": "ipython-qtconsole", 
+        "distroseries": "quantal"
+    }
+]
