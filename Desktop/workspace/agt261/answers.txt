@@ -2,12 +2,12 @@
 
 #1 
 
-#import os
-#os.path.abspath??
+import os
+os.path.abspath??
 
 2
 
-# num = !ls /etc | /usr/bin/wc -l
+num = !ls /etc | /usr/bin/wc -l
 
 #3
 
