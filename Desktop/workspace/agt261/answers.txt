@@ -1,0 +1,26 @@
+#iPython Answers 
+
+#1 
+
+#import os
+#os.path.abspath??
+
+#2
+
+# num = !ls /etc | /usr/bin/wc -l
+
+#3
+
+# import math
+# math.sqrt(232)
+#152...
+
+#4
+
+#the fastest method is x**2 (22.5 compare to 25.6 and 28)
+
+#5  
+
+# I used %lsmagic - I was able to see all the command  in cell magic but could not fin
+# how to count how many commands there
+
